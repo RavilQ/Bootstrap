@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-background{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.joystick{
+    width: 15%;
+}
+.menu-buttons{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border:none !important;
+}
+.nav-color{
+    background-color: transparent !important;
+}
+.color-white{
+    color: white !important;
+}
+.menu-icons{
+    font-size: 155%;
+    color: white;
+}
+.padding{
+    padding-right: 15% !important;
+}
+.position{
+    position: relative;
+    top: 140px;
+}
+.big-text{
+    font-size: 50px;
+}
+.normal-text{
+    font-size: 20px;
+}
+.main-button{
+    border-color: white !important;
+    padding: 15px 35px;
+}
+.main-button2{
+    border-color: #d92b4c !important;
+    background-color: #d92b4c !important;
+    padding: 15px 35px;
+}
+.main-button:hover{
+    background-color: #d92b4c !important;
+    border-color: #d92b4c !important;
+}
+.main2{
+    /* background-color: rgb(145, 141, 93); */
+    background-image: url(https://wallpaperaccess.com/full/232672.jpg);
+    /* background-image: url(https://w0.peakpx.com/wallpaper/937/897/HD-wallpaper-dark-souls-dark-souls-iii.jpg); */
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+    /* height: 100vh; */
+}
+.main-buttons-div{
+    position: relative;
+    top: 30px;
+    padding-bottom: 354px;
+}
+.main-icons{
+    font-size: 450%;
+}
+.card-body-color{
+    background-color:#926255 ;
+}
+.custom-color{
+    color:#926255 ;
+}
+.position-left{
+    position: relative;
+    right: 25px;
+}
+.main-images{
+    width: 360px;
+    animation:photo 3s linear infinite;
+}
+.main3{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    /* height: 100vh; */
+}
+.padding-bottom{
+    padding-bottom: 200px;
+}
+.card-body-color2{
+    background-color:rgba(0, 0, 0, 0) ;
+    transition: .3s;
+}
+.card-body-color2:hover{
+    background-color: #926255;
+}
+.fix-images{
+    background-attachment:fixed;
+}
+.main4{
+    width: 100%;
+}
+.main5{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+.main6{
+   width: 100%;
+   height: 65vh;
+}
+@keyframes photo{
+    0%{
+        transform: rotate(0deg) translateX(0px)
+    }
+    50%{
+        transform: rotate(1deg) translateX(3px)
+    }
+    100%{
+        transform: rotate(0deg) translateX(0px)
+    }
+}
